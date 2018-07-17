@@ -17,12 +17,14 @@ install ???
       $ tmux new -s session_name
 - Check tmux is running
       $ tmux ls
-- Kill tmux - fored kill  carefull
+
+- Kill (directly) tmux - fored kill  carefull
       $ tmux kill-session -t session_name
 
 Attach before kill
+      # tmux attack
       $ tmux a -t session_name
-      stop what is running
+      # Stop what is running
       $ exit // exit and kill session or
       $ Ctrl + d // exit and kill session
 
@@ -45,4 +47,12 @@ Ctrl+b q  # Hiện số thứ tự trên
 Ctrl+b x  # Xoá panel
 
 
-Thay doi kich thuoc cua panel + fzf
+Thay doi kich thuoc cua panel
+Ctrl+b hold_ctrl + mui ten
+
+Thoat tmux nhung vao terminal (tmux chay ngam - Detach)
+Ctrl+b d
+or ctrl + b (type) :detach
+
+
+ + fzf
