@@ -55,4 +55,10 @@ Ctrl+b d
 or ctrl + b (type) :detach
 
 
- + fzf
+### fzf
+
+Link: https://github.com/junegunn/fzf
+
+ctrl + r: tim kiem command trong history
+ctrl + t: tim filename trong thu muc
+ctrl + c: cd into the select directory
